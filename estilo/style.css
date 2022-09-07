@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
 /* Mobile First */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 html{
@@ -42,10 +46,53 @@ article{
     background-color: white;
     margin: 20px;
 }
-article#login{
-    
+article#login h1{
+    margin-top: -20px;
+    font-family: 'Kanit', sans-serif;
+    color: #3b2d60;
+}
+p{
+    font-size: 0.9em;
+    text-align: justify;
+    text-indent: 10px;
+   
+}
+label{
+    font-family: 'Kanit', sans-serif;
+    color: #3b2d60;
+    margin-left: -5px;
 
+    
 }
 article#dados{
+    margin-top: -10px;
+}
+article#dados p{
+    margin-bottom: 8px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+input[type=email], input[type=password] {
+    border-radius: 4px;
+    border: 2px solid #3b2d60;
+    box-shadow: 0px 0px 2px #3b2d60;
+    background-color: #916cf04d;
     
 }
+input[type=email]:hover, input[type=password]:hover{
+    background-color: white;
+} 
+input[type=submit], input[type=button]{
+    font-family: 'Kanit', sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #3b2d60;
+    color: #3b2d60;
+    box-shadow: 0px 0px 2px #3b2d60;
+    background-color: #916cf04d;
+}
+input[type=submit]:hover, input[type=button]:hover{
+    background-color: #807EFC;
+}
+
+
