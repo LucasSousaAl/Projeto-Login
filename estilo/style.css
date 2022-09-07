@@ -1,1 +1,58 @@
 @charset "UTF-8";
+
+/* Mobile First */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+div{
+    height: 40vw;
+    background: url(../imagem/fotoEnt.jpeg) no-repeat fixed right center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: none;
+   
+}
+
+body{
+    background-image: linear-gradient(to bottom, #8C67E6, #807EFC, #6786E6, #72B9FE);
+}
+
+main{
+
+    background-color: white; 
+    width: 60vw;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgb(57, 1, 105);
+
+}
+
+article{
+    width: auto;
+}
+article#login{
+    
+    border: 2px solid black;
+    padding: 10px 20px 5px 20px;
+    border-top: none;
+    border-bottom: none;
+}
+article#dados{
+    
+    border: 2px solid black;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px 20px 10px 20px;
+    border-top: none;
+}
