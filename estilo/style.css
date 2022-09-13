@@ -18,10 +18,10 @@ html{
 
 div{
     height: 30vh;
+    margin: -0.7px;
     background: url(../imagem/fotoEnt.jpeg) no-repeat fixed center center;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
-   
 }
 
 body{
